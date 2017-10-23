@@ -7,7 +7,7 @@ echo "
 #######################################################
 
 "
-
+yum install -y git
 yum install -y ntp vim
 yum update -y
 systemctl disable firewalld && systemctl stop firewalld
